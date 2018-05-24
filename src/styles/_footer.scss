@@ -1,0 +1,14 @@
+footer .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $dark-gray;
+
+    p , i{
+        color: gray
+    }
+
+    h5 {
+        color: $primary-color
+    }
+}

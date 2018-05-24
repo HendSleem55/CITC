@@ -1,0 +1,20 @@
+
+.carousel-item .card , .event section{
+	background-color: #f7f7f7;
+}
+
+.event:hover {
+	cursor: pointer
+}
+
+.event p {
+	margin-bottom: 0;
+}
+
+
+.newsTitle  , .eventsTitle {
+	background-color:$primary-color;
+	color: white;
+
+}
+

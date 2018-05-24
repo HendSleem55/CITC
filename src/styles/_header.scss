@@ -1,0 +1,77 @@
+nav {
+
+    color:$primary-color;
+
+    div {
+        a {
+            color:$dark-gray;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+            background: $primary-color;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold
+
+        }
+
+
+        .active {
+            color: $primary-color;
+            font-weight: bold;
+        }
+    }
+}
+
+
+
+.TeacherInfo{
+	background-color:$primary-color;
+    color: white;
+    
+    .Salary{
+        color: lightgray;
+    }
+}
+
+.notification , .messages {
+    width: 23vw;
+    position:absolute;
+    top:52px;
+    background-color:white;
+    box-shadow: 0px 3px 10px 4px rgba(0, 0, 0, 0.15);
+    display: none;
+    z-index: 1;
+    hr {
+        width: 100%;
+        height: 0.3px;
+        background-color: gray;
+    }
+
+    span {
+        color: gray;
+        font-size: 12px;
+    }
+
+    hr {
+        margin-top: 10px;
+    }
+}
+
+
+.messages{
+    right:60px;
+
+    img {
+        width:90px;
+        height: 90px;;
+    }
+
+}
+
+.notification{
+    right: 30px;
+}

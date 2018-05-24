@@ -1,0 +1,24 @@
+.research {
+	background-color: #f7f7f7;
+	padding-top:100px;
+	padding-bottom: 100px;
+
+
+
+
+	.media:hover h5 {
+		color:$primary-color;
+		font-size: bold;
+	}
+
+	.media:hover{
+		cursor: pointer;
+	}
+
+	img {
+		width: 100px;
+		height: 100px;
+	}	
+}
+
+

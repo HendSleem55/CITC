@@ -1,0 +1,44 @@
+
+.time {
+	.col-sm-2{
+		color: white;
+		P {
+			background-color:$light-gray;
+		}
+	}
+}
+
+
+.TodaySchedule{
+  	.lecturePlace{
+        color: white;
+        
+        p,h5{
+			text-align: center;
+		}
+		
+		p{
+			color: #f7f7f7;
+		}
+
+
+		.FristLecture p , .FristLecture h5 {
+			background-color: $orange-color;
+		
+		}      
+		
+		.secondLecture p , .secondLecture h5{
+			
+			background-color:$primary-color;
+			
+		}      
+		
+		.ThirdLecture p ,  .ThirdLecture h5{
+		
+			background-color:$yellow-color ;
+		}
+
+	}
+
+}
+

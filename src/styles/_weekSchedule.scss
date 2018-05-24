@@ -1,0 +1,77 @@
+.WeekSchedule{
+	display: grid;
+	grid-template-columns:repeat(7, 1fr) ;
+	grid-gap :15px;
+	color: white;
+
+	h5 {
+		font-weight: bold;
+	}
+
+	p {
+		margin-bottom: 0;
+	}
+
+	div {
+
+		display : flex ;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+					  
+	}
+
+	.lectureTime{
+		height: 48px;;
+	}
+	
+	.days {
+		height: 38px;
+	}
+
+	.col1 {
+		height: 100%;
+		border: 1px solid lightgrey;
+		
+	}
+	
+	.col2{
+		grid-row: span 2;
+		background: $orange-color;
+	}
+	
+	.col3{
+		grid-row: span 3;
+		background-color:$primary-color;
+	}
+		
+	.Titles {
+		background-color: $light-gray;
+		color: black;
+
+	}
+
+	.Orange{
+		background-color:$orange-color;
+	}
+
+	.Yellow{
+		background-color:$yellow-color;
+	}
+
+	.Gray{
+		background-color:$gray;
+	}
+
+	.Drkgray{
+		background-color:$dark-gray;
+	}
+
+
+	.green {
+		background-color:$primary-color;
+	}
+}
+
+
+
